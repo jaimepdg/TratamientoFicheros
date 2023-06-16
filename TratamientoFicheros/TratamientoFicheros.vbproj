@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B77E429-15F8-415F-BE56-B5C35B03525A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TratamientoFicheros.My.MyApplication</StartupObject>
+    <RootNamespace>TratamientoFicheros</RootNamespace>
+    <AssemblyName>TratamientoFicheros</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TratamientoFicheros.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TratamientoFicheros.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\BouncyCastle.Crypto.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\itextsharp.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.IO.Compression" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller.vb" />
+    <Compile Include="Navegador.Designer.vb">
+      <DependentUpon>Navegador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Navegador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newPdf.Designer.vb">
+      <DependentUpon>newPdf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newPdf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomDialog.Designer.vb">
+      <DependentUpon>CustomDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB_Controller.vb" />
+    <Compile Include="Dual.Designer.vb">
+      <DependentUpon>Dual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ficheros.Designer.vb">
+      <DependentUpon>Ficheros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ficheros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormatFiles.Designer.vb">
+      <DependentUpon>FormatFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormatFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lotes.Designer.vb">
+      <DependentUpon>Lotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuTareas.Designer.vb">
+      <DependentUpon>MenuTareas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTareas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTarea.Designer.vb">
+      <DependentUpon>NewTarea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewTarea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassToPdf.Designer.vb">
+      <DependentUpon>PassToPdf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PassToPdf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFProperties.Designer.vb">
+      <DependentUpon>PDFProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PDFProperties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RutaDirectorios.Designer.vb">
+      <DependentUpon>RutaDirectorios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RutaDirectorios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Chat.Designer.vb">
+      <DependentUpon>Chat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tareas.Designer.vb">
+      <DependentUpon>Tareas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tareas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZipZapZoop.Designer.vb">
+      <DependentUpon>ZipZapZoop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZipZapZoop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Navegador.resx">
+      <DependentUpon>Navegador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newPdf.resx">
+      <DependentUpon>newPdf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomDialog.resx">
+      <DependentUpon>CustomDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dual.resx">
+      <DependentUpon>Dual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ficheros.resx">
+      <DependentUpon>Ficheros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormatFiles.resx">
+      <DependentUpon>FormatFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lotes.resx">
+      <DependentUpon>Lotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTareas.resx">
+      <DependentUpon>MenuTareas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTarea.resx">
+      <DependentUpon>NewTarea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassToPdf.resx">
+      <DependentUpon>PassToPdf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFProperties.resx">
+      <DependentUpon>PDFProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RutaDirectorios.resx">
+      <DependentUpon>RutaDirectorios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat.resx">
+      <DependentUpon>Chat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tareas.resx">
+      <DependentUpon>Tareas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZipZapZoop.resx">
+      <DependentUpon>ZipZapZoop.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\BouncyCastle.Crypto.dll" />
+    <Content Include="Resources\DotNetZip.dll" />
+    <Content Include="Resources\GemBox.Document.dll" />
+    <Content Include="Resources\PdfSharp.dll" />
+    <Content Include="Resources\Syncfusion.Licensing.dll" />
+    <None Include="Resources\find_30.png" />
+    <Content Include="Resources\icons\add_65_colored.png" />
+    <Content Include="Resources\icons\add_65_white.png" />
+    <Content Include="Resources\icons\add_65_whitev2.png" />
+    <Content Include="Resources\icons\add_65_whitev3.png" />
+    <Content Include="Resources\icons\adobepdf_48_colored.png" />
+    <Content Include="Resources\icons\arrowLeft_50_colored.png" />
+    <Content Include="Resources\icons\arrowLeft_50_white.png" />
+    <Content Include="Resources\icons\arrowLeft_68_colored.png" />
+    <Content Include="Resources\icons\arrowLeft_68_white.png" />
+    <Content Include="Resources\icons\arrowRight_50_colored.png" />
+    <Content Include="Resources\icons\arrowRight_50_white.png" />
+    <Content Include="Resources\icons\arrowRight_68_colored.png" />
+    <Content Include="Resources\icons\arrowRight_68_white.png" />
+    <Content Include="Resources\icons\back_64_white.png" />
+    <Content Include="Resources\icons\binned_65_colored.png" />
+    <Content Include="Resources\icons\binned_65_white.png" />
+    <Content Include="Resources\icons\bin_30px_red.png" />
+    <Content Include="Resources\icons\bin_30px_white.png" />
+    <Content Include="Resources\icons\cancelled_48_colored.png" />
+    <Content Include="Resources\icons\cancelled_48_white.png" />
+    <Content Include="Resources\icons\carpeta.ico" />
+    <Content Include="Resources\icons\carpeta.png" />
+    <Content Include="Resources\icons\chatBg.png" />
+    <Content Include="Resources\icons\chat_bg.png" />
+    <Content Include="Resources\icons\chat_bg2.png" />
+    <Content Include="Resources\icons\chat_bg3.png" />
+    <Content Include="Resources\icons\close_48_colored.png" />
+    <Content Include="Resources\icons\close_48_gray.png" />
+    <Content Include="Resources\icons\completed_65_colored.png" />
+    <Content Include="Resources\icons\completed_65_white.png" />
+    <Content Include="Resources\icons\copy_48_colored.png" />
+    <Content Include="Resources\icons\descargar.png" />
+    <Content Include="Resources\icons\dir_30px_colored.png" />
+    <Content Include="Resources\icons\dir_30px_white.png" />
+    <Content Include="Resources\icons\dir_48_colored.png" />
+    <Content Include="Resources\icons\dir_48_colored_mirror.png" />
+    <Content Include="Resources\icons\done_48_colored.png" />
+    <Content Include="Resources\icons\done_48_white.png" />
+    <Content Include="Resources\icons\enviado_48_hover.png" />
+    <Content Include="Resources\icons\enviad_48_click.png" />
+    <Content Include="Resources\icons\exit_solid_white.png" />
+    <Content Include="Resources\icons\find_48_colored.png" />
+    <Content Include="Resources\icons\find_48_white.png" />
+    <Content Include="Resources\icons\fondo.png" />
+    <Content Include="Resources\icons\home-solid-white.png" />
+    <Content Include="Resources\icons\html_48_white.png" />
+    <Content Include="Resources\icons\icons8-eliminar-32.png" />
+    <Content Include="Resources\icons\icons8-enviado-48.png" />
+    <Content Include="Resources\icons\icons8-enviado-96.png" />
+    <Content Include="Resources\icons\inprocess_65_colored.png" />
+    <Content Include="Resources\icons\inprocess_65_white.png" />
+    <Content Include="Resources\icons\izq_30.png" />
+    <Content Include="Resources\icons\izq_30_blue.png" />
+    <Content Include="Resources\icons\izq_48px_orange.png" />
+    <Content Include="Resources\icons\izq_48px_white.png" />
+    <Content Include="Resources\icons\loading_48_colored.png" />
+    <Content Include="Resources\icons\maximize_32x32_white.png" />
+    <Content Include="Resources\icons\minimize_32x32_white.png" />
+    <Content Include="Resources\icons\newDir_48_colored.png" />
+    <Content Include="Resources\icons\newDir_48_white.png" />
+    <Content Include="Resources\icons\newFile_48_colored.png" />
+    <Content Include="Resources\icons\newFile_48_white.png" />
+    <Content Include="Resources\icons\openDir_48_colored.png" />
+    <Content Include="Resources\icons\openfile_30px_colored.png" />
+    <Content Include="Resources\icons\openfile_30px_white.png" />
+    <Content Include="Resources\icons\paste_48_colored.png" />
+    <Content Include="Resources\icons\pdf_48_red.png" />
+    <Content Include="Resources\icons\profile_48x49_white.png" />
+    <Content Include="Resources\icons\rar_48_colored.png" />
+    <Content Include="Resources\icons\refresh.png" />
+    <Content Include="Resources\icons\refresh_30.png" />
+    <Content Include="Resources\icons\refresh_30_blue.png" />
+    <Content Include="Resources\icons\refresh_animado.gif" />
+    <Content Include="Resources\icons\refresh_hover.png" />
+    <Content Include="Resources\icons\refresh_white.png" />
+    <Content Include="Resources\icons\save_48_colored.png" />
+    <Content Include="Resources\icons\txt_48_white.png" />
+    <Content Include="Resources\icons\wave.png" />
+    <Content Include="Resources\itextsharp.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

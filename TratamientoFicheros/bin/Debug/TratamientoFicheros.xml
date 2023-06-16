@@ -1,0 +1,332 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TratamientoFicheros
+</name>
+</assembly>
+<members>
+<member name="P:TratamientoFicheros.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.add_65_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.add_65_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.add_65_whitev2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.add_65_whitev3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.adobepdf_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowLeft_50_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowLeft_50_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowLeft_68_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowLeft_68_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowRight_50_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowRight_50_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowRight_68_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.arrowRight_68_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.back_64_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.bin_30px_red">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.bin_30px_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.binned_65_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.binned_65_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.cancelled_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.cancelled_48_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.carpeta">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.carpeta1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.chat_bg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.chat_bg2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.chat_bg3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.chatBg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.close_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.close_48_gray">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.completed_65_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.completed_65_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.copy_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.descargar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.dir_30px_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.dir_30px_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.dir_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.dir_48_colored_mirror">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.done_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.done_48_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.enviad_48_click">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.enviado_48_hover">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.exit_solid_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.find_30">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.find_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.find_48_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.fondo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.home_solid_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.html_48_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.icons8_eliminar_32">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.icons8_enviado_48">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.icons8_enviado_96">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.inprocess_65_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.inprocess_65_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.izq_30">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.izq_48px_orange">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.izq_48px_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.loading_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.maximize_32x32_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.minimize_32x32_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.newDir_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.newDir_48_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.newFile_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.newFile_48_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.openDir_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.openfile_30px_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.openfile_30px_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.paste_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.pdf_48_red">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.profile_48x49_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.rar_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.refresh">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.refresh_30">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.refresh_animado">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.refresh_hover">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.refresh_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.save_48_colored">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.txt_48_white">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TratamientoFicheros.My.Resources.Resources.wave">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:TratamientoFicheros.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

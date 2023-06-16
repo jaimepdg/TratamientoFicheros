@@ -1,0 +1,7 @@
+select g.nombre [Grupo], l.nombre [Nombre Lista], t.nombre [Tarea], et.nombre [Estado]
+from Listas l
+inner join Listas_Tareas lt on lt.ID_lista = l.ID_lista
+inner join Tareas t on t.ID_tarea = lt.ID_tarea
+inner join Grupos g on g.ID_grupo = lt.ID_grupo
+inner join Users u on u.ID_grupo = g.ID_grupo
+inner join Estados_tareas et on et.ID_estado_tarea = t.ID_estado_tarea
